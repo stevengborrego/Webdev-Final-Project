@@ -1,0 +1,27 @@
+.container {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#about {
+    justify-content: center;
+    text-align: center;
+}
+
+#previous-work {
+    justify-content: center;
+    text-align: center;
+}
+
+#projects {
+    justify-content: center;
+    text-align: center;
+}
+
+#contact {
+    justify-content: center;
+    text-align: center;
+}
