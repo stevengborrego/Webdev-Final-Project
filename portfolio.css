@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-#previous-work {
+#education-skills {
     justify-content: center;
     text-align: center;
 }
@@ -24,4 +24,16 @@
 #contact {
     justify-content: center;
     text-align: center;
+}
+
+#footer {
+    text-align: end;
+}
+
+.education-item {
+    text-align: left;
+}
+
+.skills-item {
+    text-align: end;
 }

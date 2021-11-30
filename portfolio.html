@@ -12,8 +12,9 @@
     <title>Steven Borrego's Portfolio</title>
   </head>
   <body class="bg-light">
-    <div class="container sticky-top">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!-- Navbar -->
+    <div class="container sticky-top" style="margin-top: 0;">
+        <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
             <a class="navbar-brand" href="#">Steven Borrego</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -24,7 +25,7 @@
                   <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#previous-work">Previous Work</a>
+                  <a class="nav-link" href="#education-experience">Education + Skills</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#projects">Projects</a>
@@ -36,18 +37,90 @@
             </div>
         </nav>
     </div>
+    <!-- About -->
     <div class="container" id="about">
         <h1>About</h1>
-        <p>Computer science graduate student at Portland State University. Part time record store clerk.  Equally passionate about CS as making music, reading literature, and watching films. Empathetic, creative, and principled. Believes people are more important than profits.</p>
+        <br>
     </div>
-    <div class="container" id="previous-work">
-        <h1>Previous Work</h1>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Previous Work -->
+    <div class="container" id="education-skills">
+        <h1>Education + Skills</h1>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Education</h4>
+                <br>
+                <div class="education-item">
+                    <h6>Portland State University</h6>
+                    <em>
+                        December 2019<br>
+                        Bachelor of Science in Computer Science <br>
+                    </em>
+                </div>
+                <br>
+                <div class="education-item">
+                    <h6>Portland Community College</h6>
+                    <em>
+                        June 2015 <br>
+                        Associate of Applied Science in Computer Information Systems<br>
+                        <br>
+                        June 2015<br>
+                        Associate of Arts Oregon Transfer (AAOT) Degree
+                    </em>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Skills</h4>
+                <br>
+                <div class="skills-item">
+                    <h6>Programming Languages</h6>
+                    <em>
+                        C, C++, C#<br>
+                        Python, Java, SQL<br>
+                        Javascript, HTML, CSS
+                    </em>
+                </div>
+                <br>
+                <div class="skills-item">
+                    <h6>Tools + Frameworks</h6>
+                    <em>
+                        Git<br>
+                        Bootstrap<br>
+                        JetBrains IDE
+                    </em>
+                </div>
+                <br>
+            </div>
+        </div>
     </div>
+    <!-- Projects -->
     <div class="container" id="projects">
         <h1>Projects</h1>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br>
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="robby.jpeg" alt="Robot">
+                    <div class="card-body">
+                      <h5 class="card-title">Robby the Robot</h5>
+                      <p class="card-text">Python program that uses the Q-learning AI algorithim to train a robot to pick up cans in a grid-world.</p>
+                      <a href="https://github.com/stevengborrego/CS541-Programming-3" class="btn btn-success">Github</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="color-wheel.jpeg" alt="Spotify Logo">
+                    <div class="card-body">
+                      <h5 class="card-title">Mood Music</h5>
+                      <p class="card-text">Web app that uses Spotify API metadata to produce a color spectrum to produce a synesthesia-like effect. </p>
+                      <a href="https://github.com/iyves/mood-music" class="btn btn-success">Github</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
     </div>
+    <!-- Contact Form -->
     <div class="container" id="contact">
         <form>
             <h1>Contact</h1>
@@ -67,16 +140,18 @@
                 </div>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
             <button type="reset" class="btn btn-secondary">Reset</button>
           </form>      
     </div>
-    <footer class="footer" style="position: fixed;">
-        <div class="container">
-         <hr>
-         <p class="text-muted" style="text-align:right">Ⓒ steven borrego 2021</p>
-        </div>
-      </footer>
+    <div class="container">
+        <footer class="bg-light" id="footer">
+            <div>
+                <hr>
+                <p class="text-muted" style="text-align:right">Ⓒ steven borrego 2021</p>
+            </div>
+        </footer>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
