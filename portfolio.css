@@ -39,5 +39,9 @@
 }
 
 .skills-item {
-    text-align: end;
+    text-align: left;
+}
+
+.card {
+    margin-top: 15px;
 }
