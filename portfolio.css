@@ -45,3 +45,7 @@
 .card {
     margin-top: 15px;
 }
+
+#about-text {
+    text-align: left;
+}
